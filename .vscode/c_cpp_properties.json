@@ -1,0 +1,27 @@
+{
+  "configurations": [
+    {
+      "name": "STM32",
+      "includePath": [
+        "${workspaceFolder}",
+        "User",
+        "Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+        "Drivers/CMSIS/Include",
+        "Drivers/STM32H7xx_HAL_Driver/Inc",
+        "Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+        "Drivers/SYSTEM/sys",
+        "Drivers/SYSTEM/usart",
+        "Drivers/SYSTEM/delay",
+        "Drivers/BSP/led",
+        
+      ],
+      "defines": [
+        "STM32H743xx",
+        "USE_HAL_DRIVER",
+        "USE_PWR_LDO_SUPPLY"
+      ],
+      "compilerPath": "D:\\APPDownload\\xpack-arm-none-eabi-gcc-14.2.1-1.1\\bin\\arm-none-eabi-gcc.EXE"
+    }
+  ],
+  "version": 4
+}
